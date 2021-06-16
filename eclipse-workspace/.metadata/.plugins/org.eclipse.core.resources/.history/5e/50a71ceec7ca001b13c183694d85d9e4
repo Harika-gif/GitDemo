@@ -1,0 +1,13 @@
+import java.util.Arrays;
+
+public class DemoJava1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ int a[]= {39,3,24,03,64,12};
+ Arrays.sort(a);
+ 
+ System.out.println(a);
+	}
+
+}

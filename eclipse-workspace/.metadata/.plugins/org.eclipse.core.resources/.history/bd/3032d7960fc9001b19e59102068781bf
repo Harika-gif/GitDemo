@@ -1,0 +1,32 @@
+package Academy;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+
+import pageObjects.LandingPage;
+import resources.base;
+
+//we can use base class methods in this class by Inheritance base class by extends keyword
+public class validateTitle extends base{
+
+	@Test
+	public void basePageNavigation() throws IOException
+	{
+		driver=initializeDriver();
+		driver.get("http://qaclickacademy.com");
+		
+		//to access methods of another class we have 2 methods
+		//one is inheritance by extends keyword
+		//second is to create object for that class 
+		
+		LandingPage l= new LandingPage(driver);
+		l.getTitle().getText();
+		
+	
+		
+		
+		
+	}
+}
