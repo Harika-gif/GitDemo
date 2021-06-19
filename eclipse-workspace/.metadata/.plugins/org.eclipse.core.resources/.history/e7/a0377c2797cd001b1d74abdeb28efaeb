@@ -1,0 +1,8 @@
+Feature: Login into Application
+
+Scenario: Postivie test validating login
+Given Initialize the browser with chrome
+And Navigate to "QAClickAcademy" site
+And Click on Login link in home page to land on sign in page
+When User enter "username" and "passwords" and logins in
+Then Verify that user is successfully login
