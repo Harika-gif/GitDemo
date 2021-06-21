@@ -1,0 +1,3 @@
+Refer below link if you still could not be able to run tests in IE
+
+http://www.software-testing-tutorials-automation.com/2015/07/how-to-run-selenium-webdriver-test.html
